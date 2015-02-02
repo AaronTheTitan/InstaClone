@@ -87,7 +87,6 @@
 				911A78801A80346B00B5BF15 /* InstaClone.xcdatamodeld */,
 				911A78A21A80347800B5BF15 /* View Controllers */,
 				911A78A31A80348E00B5BF15 /* Defaults */,
-				911A78791A80346B00B5BF15 /* Supporting Files */,
 			);
 			path = InstaClone;
 			sourceTree = "<group>";
@@ -130,6 +129,7 @@
 		911A78A31A80348E00B5BF15 /* Defaults */ = {
 			isa = PBXGroup;
 			children = (
+				911A78791A80346B00B5BF15 /* Supporting Files */,
 				911A787D1A80346B00B5BF15 /* AppDelegate.h */,
 				911A787E1A80346B00B5BF15 /* AppDelegate.m */,
 				911A78891A80346B00B5BF15 /* Images.xcassets */,
@@ -432,6 +432,7 @@
 				911A789E1A80346B00B5BF15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		911A789F1A80346B00B5BF15 /* Build configuration list for PBXNativeTarget "InstaCloneTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +441,7 @@
 				911A78A11A80346B00B5BF15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
