@@ -15,6 +15,7 @@
 		911A788A1A80346B00B5BF15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 911A78891A80346B00B5BF15 /* Images.xcassets */; };
 		911A788D1A80346B00B5BF15 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 911A788B1A80346B00B5BF15 /* LaunchScreen.xib */; };
 		911A78991A80346B00B5BF15 /* InstaCloneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 911A78981A80346B00B5BF15 /* InstaCloneTests.m */; };
+		918A75C31A803C1000B3A409 /* AddImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 918A75C21A803C1000B3A409 /* AddImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		911A78921A80346B00B5BF15 /* InstaCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		911A78971A80346B00B5BF15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		911A78981A80346B00B5BF15 /* InstaCloneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaCloneTests.m; sourceTree = "<group>"; };
+		918A75C11A803C1000B3A409 /* AddImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddImageViewController.h; sourceTree = "<group>"; };
+		918A75C21A803C1000B3A409 /* AddImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 			children = (
 				911A78831A80346B00B5BF15 /* HomeViewController.h */,
 				911A78841A80346B00B5BF15 /* HomeViewController.m */,
+				918A75C11A803C1000B3A409 /* AddImageViewController.h */,
+				918A75C21A803C1000B3A409 /* AddImageViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -240,6 +245,7 @@
 			files = (
 				911A78821A80346B00B5BF15 /* InstaClone.xcdatamodeld in Sources */,
 				911A787F1A80346B00B5BF15 /* AppDelegate.m in Sources */,
+				918A75C31A803C1000B3A409 /* AddImageViewController.m in Sources */,
 				911A78851A80346B00B5BF15 /* HomeViewController.m in Sources */,
 				911A787C1A80346B00B5BF15 /* main.m in Sources */,
 			);
