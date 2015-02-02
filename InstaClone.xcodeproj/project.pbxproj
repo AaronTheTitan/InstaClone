@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		884144E11A803ECE001337E9 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 884144E01A803ECE001337E9 /* User.m */; };
+		884144E41A803ECF001337E9 /* PhotoTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 884144E31A803ECF001337E9 /* PhotoTag.m */; };
+		884144E71A803ECF001337E9 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 884144E61A803ECF001337E9 /* Photo.m */; };
+		884144EA1A803ECF001337E9 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 884144E91A803ECF001337E9 /* Comment.m */; };
+		884144ED1A803ECF001337E9 /* HashTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 884144EC1A803ECF001337E9 /* HashTag.m */; };
 		911A787C1A80346B00B5BF15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 911A787B1A80346B00B5BF15 /* main.m */; };
 		911A787F1A80346B00B5BF15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 911A787E1A80346B00B5BF15 /* AppDelegate.m */; };
 		911A78821A80346B00B5BF15 /* InstaClone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 911A78801A80346B00B5BF15 /* InstaClone.xcdatamodeld */; };
@@ -28,6 +33,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		884144DF1A803ECE001337E9 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		884144E01A803ECE001337E9 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		884144E21A803ECF001337E9 /* PhotoTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoTag.h; sourceTree = "<group>"; };
+		884144E31A803ECF001337E9 /* PhotoTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoTag.m; sourceTree = "<group>"; };
+		884144E51A803ECF001337E9 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		884144E61A803ECF001337E9 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		884144E81A803ECF001337E9 /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		884144E91A803ECF001337E9 /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
+		884144EB1A803ECF001337E9 /* HashTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashTag.h; sourceTree = "<group>"; };
+		884144EC1A803ECF001337E9 /* HashTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HashTag.m; sourceTree = "<group>"; };
 		911A78761A80346B00B5BF15 /* InstaClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		911A787A1A80346B00B5BF15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		911A787B1A80346B00B5BF15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -62,6 +77,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		884144EE1A803ED5001337E9 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				884144EB1A803ECF001337E9 /* HashTag.h */,
+				884144EC1A803ECF001337E9 /* HashTag.m */,
+				884144E81A803ECF001337E9 /* Comment.h */,
+				884144E91A803ECF001337E9 /* Comment.m */,
+				884144E51A803ECF001337E9 /* Photo.h */,
+				884144E61A803ECF001337E9 /* Photo.m */,
+				884144E21A803ECF001337E9 /* PhotoTag.h */,
+				884144E31A803ECF001337E9 /* PhotoTag.m */,
+				884144DF1A803ECE001337E9 /* User.h */,
+				884144E01A803ECE001337E9 /* User.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
 		911A786D1A80346A00B5BF15 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +117,7 @@
 			children = (
 				911A78861A80346B00B5BF15 /* Main.storyboard */,
 				911A78801A80346B00B5BF15 /* InstaClone.xcdatamodeld */,
+				884144EE1A803ED5001337E9 /* Entities */,
 				911A78A21A80347800B5BF15 /* View Controllers */,
 				911A78A31A80348E00B5BF15 /* Defaults */,
 			);
@@ -238,10 +271,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				884144E71A803ECF001337E9 /* Photo.m in Sources */,
+				884144E11A803ECE001337E9 /* User.m in Sources */,
+				884144E41A803ECF001337E9 /* PhotoTag.m in Sources */,
 				911A78821A80346B00B5BF15 /* InstaClone.xcdatamodeld in Sources */,
 				911A787F1A80346B00B5BF15 /* AppDelegate.m in Sources */,
 				911A78851A80346B00B5BF15 /* HomeViewController.m in Sources */,
+				884144ED1A803ECF001337E9 /* HashTag.m in Sources */,
 				911A787C1A80346B00B5BF15 /* main.m in Sources */,
+				884144EA1A803ECF001337E9 /* Comment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
