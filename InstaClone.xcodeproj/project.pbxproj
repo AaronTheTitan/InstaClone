@@ -83,14 +83,10 @@
 		911A78781A80346B00B5BF15 /* InstaClone */ = {
 			isa = PBXGroup;
 			children = (
-				911A787D1A80346B00B5BF15 /* AppDelegate.h */,
-				911A787E1A80346B00B5BF15 /* AppDelegate.m */,
-				911A78831A80346B00B5BF15 /* ViewController.h */,
-				911A78841A80346B00B5BF15 /* ViewController.m */,
 				911A78861A80346B00B5BF15 /* Main.storyboard */,
-				911A78891A80346B00B5BF15 /* Images.xcassets */,
-				911A788B1A80346B00B5BF15 /* LaunchScreen.xib */,
 				911A78801A80346B00B5BF15 /* InstaClone.xcdatamodeld */,
+				911A78A21A80347800B5BF15 /* View Controllers */,
+				911A78A31A80348E00B5BF15 /* Defaults */,
 				911A78791A80346B00B5BF15 /* Supporting Files */,
 			);
 			path = InstaClone;
@@ -120,6 +116,26 @@
 				911A78971A80346B00B5BF15 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		911A78A21A80347800B5BF15 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				911A78831A80346B00B5BF15 /* ViewController.h */,
+				911A78841A80346B00B5BF15 /* ViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		911A78A31A80348E00B5BF15 /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				911A787D1A80346B00B5BF15 /* AppDelegate.h */,
+				911A787E1A80346B00B5BF15 /* AppDelegate.m */,
+				911A78891A80346B00B5BF15 /* Images.xcassets */,
+				911A788B1A80346B00B5BF15 /* LaunchScreen.xib */,
+			);
+			name = Defaults;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
