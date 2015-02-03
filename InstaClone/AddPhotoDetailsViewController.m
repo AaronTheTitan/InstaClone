@@ -1,0 +1,45 @@
+//
+//  AddPhotoDetailsViewController.m
+//  InstaClone
+//
+//  Created by Aaron Bradley on 2/2/15.
+//  Copyright (c) 2015 Aaron Bradley. All rights reserved.
+//
+
+#import "AddPhotoDetailsViewController.h"
+#import "AddPhotoViewController.h"
+
+@interface AddPhotoDetailsViewController ()
+@property (strong, nonatomic) IBOutlet UIImageView *imageViewThumbnail;
+
+@end
+
+@implementation AddPhotoDetailsViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    self.imageViewThumbnail.image = self.photo;
+
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+@end

@@ -13,14 +13,16 @@
 		884144EA1A803ECF001337E9 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 884144E91A803ECF001337E9 /* Comment.m */; };
 		884144ED1A803ECF001337E9 /* HashTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 884144EC1A803ECF001337E9 /* HashTag.m */; };
 		911A787C1A80346B00B5BF15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 911A787B1A80346B00B5BF15 /* main.m */; };
-		911A787F1A80346B00B5BF15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 911A787E1A80346B00B5BF15 /* AppDelegate.m */; };
 		911A78821A80346B00B5BF15 /* InstaClone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 911A78801A80346B00B5BF15 /* InstaClone.xcdatamodeld */; };
 		911A78851A80346B00B5BF15 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 911A78841A80346B00B5BF15 /* HomeViewController.m */; };
 		911A78881A80346B00B5BF15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 911A78861A80346B00B5BF15 /* Main.storyboard */; };
 		911A788A1A80346B00B5BF15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 911A78891A80346B00B5BF15 /* Images.xcassets */; };
 		911A788D1A80346B00B5BF15 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 911A788B1A80346B00B5BF15 /* LaunchScreen.xib */; };
 		911A78991A80346B00B5BF15 /* InstaCloneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 911A78981A80346B00B5BF15 /* InstaCloneTests.m */; };
-		918A75C31A803C1000B3A409 /* AddImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 918A75C21A803C1000B3A409 /* AddImageViewController.m */; };
+		912F435B1A804FA000D6EFDE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 912F435A1A804FA000D6EFDE /* LoginViewController.m */; };
+		912F435E1A80502700D6EFDE /* AddPhotoDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 912F435D1A80502700D6EFDE /* AddPhotoDetailsViewController.m */; };
+		918A75C31A803C1000B3A409 /* AddPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 918A75C21A803C1000B3A409 /* AddPhotoViewController.m */; };
+		91FABCA91A808138002517F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 911A787E1A80346B00B5BF15 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,8 +60,12 @@
 		911A78921A80346B00B5BF15 /* InstaCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		911A78971A80346B00B5BF15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		911A78981A80346B00B5BF15 /* InstaCloneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaCloneTests.m; sourceTree = "<group>"; };
-		918A75C11A803C1000B3A409 /* AddImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddImageViewController.h; sourceTree = "<group>"; };
-		918A75C21A803C1000B3A409 /* AddImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddImageViewController.m; sourceTree = "<group>"; };
+		912F43591A804FA000D6EFDE /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		912F435A1A804FA000D6EFDE /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		912F435C1A80502700D6EFDE /* AddPhotoDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPhotoDetailsViewController.h; sourceTree = "<group>"; };
+		912F435D1A80502700D6EFDE /* AddPhotoDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPhotoDetailsViewController.m; sourceTree = "<group>"; };
+		918A75C11A803C1000B3A409 /* AddPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPhotoViewController.h; sourceTree = "<group>"; };
+		918A75C21A803C1000B3A409 /* AddPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPhotoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,7 @@
 			children = (
 				911A78861A80346B00B5BF15 /* Main.storyboard */,
 				911A78801A80346B00B5BF15 /* InstaClone.xcdatamodeld */,
+				91E8CD621A8069CA00B1DB40 /* Model */,
 				884144EE1A803ED5001337E9 /* Entities */,
 				911A78A21A80347800B5BF15 /* View Controllers */,
 				911A78A31A80348E00B5BF15 /* Defaults */,
@@ -158,8 +165,12 @@
 			children = (
 				911A78831A80346B00B5BF15 /* HomeViewController.h */,
 				911A78841A80346B00B5BF15 /* HomeViewController.m */,
-				918A75C11A803C1000B3A409 /* AddImageViewController.h */,
-				918A75C21A803C1000B3A409 /* AddImageViewController.m */,
+				912F43591A804FA000D6EFDE /* LoginViewController.h */,
+				912F435A1A804FA000D6EFDE /* LoginViewController.m */,
+				918A75C11A803C1000B3A409 /* AddPhotoViewController.h */,
+				918A75C21A803C1000B3A409 /* AddPhotoViewController.m */,
+				912F435C1A80502700D6EFDE /* AddPhotoDetailsViewController.h */,
+				912F435D1A80502700D6EFDE /* AddPhotoDetailsViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -174,6 +185,13 @@
 				911A788B1A80346B00B5BF15 /* LaunchScreen.xib */,
 			);
 			name = Defaults;
+			sourceTree = "<group>";
+		};
+		91E8CD621A8069CA00B1DB40 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +243,7 @@
 				TargetAttributes = {
 					911A78751A80346B00B5BF15 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = F8C9TB8Q69;
 					};
 					911A78911A80346B00B5BF15 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -276,15 +295,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91FABCA91A808138002517F5 /* AppDelegate.m in Sources */,
 				884144E71A803ECF001337E9 /* Photo.m in Sources */,
 				884144E11A803ECE001337E9 /* User.m in Sources */,
 				884144E41A803ECF001337E9 /* PhotoTag.m in Sources */,
 				911A78821A80346B00B5BF15 /* InstaClone.xcdatamodeld in Sources */,
-				911A787F1A80346B00B5BF15 /* AppDelegate.m in Sources */,
-				918A75C31A803C1000B3A409 /* AddImageViewController.m in Sources */,
+				918A75C31A803C1000B3A409 /* AddPhotoViewController.m in Sources */,
+				912F435E1A80502700D6EFDE /* AddPhotoDetailsViewController.m in Sources */,
 				911A78851A80346B00B5BF15 /* HomeViewController.m in Sources */,
 				884144ED1A803ECF001337E9 /* HashTag.m in Sources */,
 				911A787C1A80346B00B5BF15 /* main.m in Sources */,
+				912F435B1A804FA000D6EFDE /* LoginViewController.m in Sources */,
 				884144EA1A803ECF001337E9 /* Comment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,9 +428,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/InstaClone",
+				);
 				INFOPLIST_FILE = InstaClone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -417,9 +445,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/InstaClone",
+				);
 				INFOPLIST_FILE = InstaClone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
